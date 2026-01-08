@@ -1,4 +1,4 @@
---Readme document for Calvin Wong, *YOUR_EMAIL@uci.edu*--
+--Readme document for Calvin Wong, calviw8@uci.edu--
 
 A reminder on academic integrity, as described in the syllabus.
 

@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: var(--pri-color);
+    background-color: var(--pri-accent-color-light);
     font-optical-sizing: auto;
     color: var(--pri-accent-color-lighter);
 }
@@ -15,7 +15,7 @@ p, li, div {
 }
 
 .navbar ul {
-    background-color: var(--pri-accent-color-darker);
+    background-color: var(--pri-color);
     z-index: 1000; 
     list-style-type: none;
     overflow: hidden;
@@ -31,6 +31,8 @@ p, li, div {
 }
 
 .navbar ul li a {
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
     color: var(--pri-accent-color-lighter);
     display: block;
     text-decoration: none;
@@ -43,7 +45,7 @@ p, li, div {
 }
 
 .header { 
-    background-color: var(--pri-accent-color-dark);
+    background-color: var(--pri-color);
     padding-top: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -57,14 +59,14 @@ p, li, div {
 #header-img {
     border-radius: 40%;
     padding: 5px;
-    background-color: var(--pri-accent-color-darker);
+    background-color: var(--pri-color);
     width: 160px;
     height: 160px;
     object-fit: cover;
 }
 
 .about-me {
-    background-color: var(--pri-accent-color-dark);
+    background-color: var(--pri-color);
     padding: 20px;
     margin: 50px;
     text-align: left;   

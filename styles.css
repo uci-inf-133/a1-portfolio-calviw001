@@ -30,6 +30,13 @@ p, li, div {
     margin: 10px;
 }
 
+#project-img {
+    border-radius: 5%;
+    padding: 5px;
+    background-color: var(--pri-accent-color-dark);
+    object-fit: cover;
+}
+
 .navbar ul li a {
     font-family: 'Oswald', sans-serif;
     font-size: large;
@@ -41,7 +48,10 @@ p, li, div {
 }
 
 .navbar ul li a:hover {
-    color: var(--comp-color);
+    background-color: var(--comp-accent-color-lighter);
+    border-radius: 15%;
+    transform: translateY(-3px);
+    color: var(--comp-accent-color-darker);
 }
 
 .header { 
@@ -52,20 +62,20 @@ p, li, div {
     text-align: center;
 }
 
-.header-title, .about-title {
+.header-title, .about-title, .my-projects-title {
     padding-bottom: 20px;
 }
 
 #header-img {
     border-radius: 40%;
     padding: 5px;
-    background-color: var(--pri-color);
+    background-color: var(--pri-accent-color-dark);
     width: 160px;
     height: 160px;
     object-fit: cover;
 }
 
-.about-me {
+.about-me, .my-projects {
     background-color: var(--pri-color);
     padding: 20px;
     margin: 50px;

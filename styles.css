@@ -14,6 +14,14 @@ p, li, div {
   font-family: 'Open Sans', sans-serif;
 }
 
+.header-container { 
+  background-color: var(--pri-accent-color-dark);
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 #header-img {
   border-radius: 40%;
   padding: 5px;

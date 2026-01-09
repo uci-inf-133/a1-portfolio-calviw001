@@ -14,6 +14,34 @@ p, li, div {
     font-family: 'Open Sans', sans-serif;
 }
 
+.navbar ul {
+    background-color: var(--pri-accent-color-darker);
+    z-index: 1000; 
+    list-style-type: none;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar ul li {
+    float: left;
+    margin: 10px;
+}
+
+.navbar ul li a {
+    color: var(--pri-accent-color-lighter);
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 1px; 
+}
+
+.navbar ul li a:hover {
+    color: var(--comp-color);
+}
+
 .header { 
     background-color: var(--pri-accent-color-dark);
     padding-top: 20px;

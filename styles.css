@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--pri-color);
+    font-optical-sizing: auto;
+    color: var(--comp-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+}
+
+p, li, div {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#header-img {
+  border-radius: 40%;
+  padding: 5px;
+  background-color: var(--pri-accent-color-darker);
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
+
+:root {
+    /* Normal Colors */
+    --pri-color: #a13d4e;
+    --comp-color: #539438;
+
+    /* Accent Colors */
+    --pri-accent-color-lighter: #d2cff5;
+    --pri-accent-color-light: #C85B6E;
+    --pri-accent-color-dark: #77192A;
+    --pri-accent-color-darker: #4F0714;
+    --comp-accent-color-lighter: #A2DD89;
+    --comp-accent-color-light: #71B753;
+    --comp-accent-color-dark: #316D17;
+    --comp-accent-color-darker: #1A4807;
+}

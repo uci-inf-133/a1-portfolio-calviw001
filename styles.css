@@ -22,7 +22,7 @@ p, li, div {
     text-align: center;
 }
 
-.header-title {
+.header-title, .about-title {
     padding-bottom: 20px;
 }
 
@@ -33,6 +33,13 @@ p, li, div {
     width: 160px;
     height: 160px;
     object-fit: cover;
+}
+
+.about-me {
+    background-color: var(--pri-accent-color-dark);
+    padding: 20px;
+    margin: 50px;
+    text-align: left;   
 }
 
 :root {

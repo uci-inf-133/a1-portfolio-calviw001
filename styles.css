@@ -65,6 +65,25 @@ a {
     transition: transform 0.2s ease-out 0.2s;
 }
 
+.navbar ul li button {
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+    background-color: var(--pri-color);
+    border-color: var(--pri-color);
+    color: var(--pri-accent-color-lighter);
+    transition: background-color 0.5s ease-out 0.5s;
+    transition: border-color 0.5s ease-out 0.5s;
+    transition: color 0.2s ease-out 0.2s;
+}
+
+.navbar ul li button:hover {
+    background-color: var(--comp-accent-color-lighter);
+    transform: translateY(-3px);
+    border-color: var(--comp-accent-color-darker);
+    color: var(--comp-accent-color-darker);
+    transition: transform 0.2s ease-out 0.2s;
+}
+
 .header { 
     background-color: var(--pri-color);
     padding-top: 20px;

@@ -46,11 +46,15 @@ a {
 .navbar ul li a {
     font-family: 'Oswald', sans-serif;
     font-size: large;
-    color: var(--pri-accent-color-lighter);
     display: block;
     text-decoration: none;
     text-align: center;
     padding: 1px; 
+    background-color: var(--pri-color);
+    border-radius: 15%;
+    color: var(--pri-accent-color-lighter);
+    transition: background-color 0.5s ease-out 0.5s;
+    transition: color 0.2s ease-out 0.2s;
 }
 
 .navbar ul li a:hover {
@@ -58,6 +62,7 @@ a {
     border-radius: 15%;
     transform: translateY(-3px);
     color: var(--comp-accent-color-darker);
+    transition: transform 0.2s ease-out 0.2s;
 }
 
 .header { 
@@ -97,12 +102,14 @@ a {
     color: var(--pri-accent-color-lighter);
     margin: 10px;
     margin-bottom: 0px;
+    transition: color 0.2s ease-out 0.2s;
 }
 
 .about-links a:hover .fa-solid,
 .about-links a:hover .fa-brands {
     color: var(--comp-accent-color-lighter);
     transform: translateY(-3px);
+    transition: transform 0.2s ease-out 0.2s;
 }
 
 #project-vid, #project-img {

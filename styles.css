@@ -69,7 +69,7 @@ a {
     font-family: 'Oswald', sans-serif;
     cursor: pointer;
     background-color: var(--pri-color);
-    border-color: var(--pri-color);
+    border-color: var(--pri-accent-color-dark);
     color: var(--pri-accent-color-lighter);
     transition: background-color 0.5s ease-out 0.5s;
     transition: border-color 0.5s ease-out 0.5s;
@@ -150,14 +150,78 @@ a {
     margin-right: 20px;
 }
 
+/* Dark mode styles */
+.dark-mode {
+    background-color: var(--pri-accent-color-darker);
+    font-optical-sizing: auto;
+    color: var(--pri-color);
+}
+
+.dark-mode .navbar ul {
+    background-color: var(--pri-accent-color-dark);
+}
+
+.dark-mode .navbar ul li a {
+    background-color: var(--pri-accent-color-dark);
+    color: var(--pri-color);
+}
+
+.dark-mode .navbar ul li a:hover {
+    background-color: var(--comp-color);
+    color: var(--comp-accent-color-lighter);
+}
+
+.dark-mode .navbar ul li button {
+    background-color: var(--pri-accent-color-dark);
+    border-color: var(--pri-accent-color-light);
+    color: var(--pri-color);
+}
+
+.dark-mode .navbar ul li button:hover {
+    background-color: var(--comp-color);
+    border-color: var(--comp-accent-color-lighter);
+    color: var(--comp-accent-color-lighter);
+}
+
+.dark-mode .header {
+    background-color: var(--pri-accent-color-dark);
+}
+
+.dark-mode #header-img {
+    background-color: var(--pri-accent-color-light);
+}
+
+.dark-mode .about-me, 
+.dark-mode .my-projects, 
+.dark-mode .my-contacts {
+    background-color: var(--pri-accent-color-dark);
+}
+
+.dark-mode .about-links a .fa-solid,
+.dark-mode .about-links a .fa-brands,
+.dark-mode .contacts-list .socials-icons a .fa-brands {
+    color: var(--pri-color);
+}
+
+.dark-mode .about-links a:hover .fa-solid,
+.dark-mode .about-links a:hover .fa-brands,
+.dark-mode .contacts-list .socials-icons a:hover .fa-brands {
+    color: var(--comp-color);
+}
+
+.dark-mode #project-vid, 
+.dark-mode #project-img {
+    background-color: var(--pri-color);
+} 
+
 :root {
     /* Normal Colors */
-    --pri-color: #a13d4e;
+    --pri-color: #c5586a;
     --comp-color: #539438;
 
     /* Accent Colors */
     --pri-accent-color-lighter: #d2cff5;
-    --pri-accent-color-light: #C85B6E;
+    --pri-accent-color-light: #d66d7f;
     --pri-accent-color-dark: #77192A;
     --pri-accent-color-darker: #4F0714;
     --comp-accent-color-lighter: #A2DD89;

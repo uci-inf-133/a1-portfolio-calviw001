@@ -15,3 +15,12 @@ const toggleDarkMode = () => {
 };
 
 darkModeButton.addEventListener('click', toggleDarkMode);
+
+const toggleDarkModeOnLoad = () => {
+    let body = document.querySelector('body');
+    let darkmode = localStorage.getItem('dark-mode');
+    
+    darkmode === 'on' ? body.classList.add('dark-mode') : body.classList.remove('dark-mode')
+};
+
+document.addEventListener('DOMContentLoaded', toggleDarkModeOnLoad)

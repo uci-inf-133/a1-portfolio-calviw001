@@ -30,13 +30,6 @@ p, li, div {
     margin: 10px;
 }
 
-#project-img {
-    border-radius: 5%;
-    padding: 5px;
-    background-color: var(--pri-accent-color-dark);
-    object-fit: cover;
-}
-
 .navbar ul li a {
     font-family: 'Oswald', sans-serif;
     font-size: large;
@@ -80,6 +73,13 @@ p, li, div {
     padding: 20px;
     margin: 50px;
     text-align: left;   
+}
+
+#project-vid, #project-img {
+    border-radius: 5%;
+    padding: 5px;
+    background-color: var(--pri-accent-color-dark);
+    object-fit: cover;
 }
 
 :root {

@@ -73,7 +73,7 @@ a {
     text-align: center;
 }
 
-.header-title, .about-title, .my-projects-title {
+.header-title, .about-title, .my-projects-title, .my-contacts-title {
     padding-bottom: 20px;
 }
 
@@ -86,7 +86,7 @@ a {
     object-fit: cover;
 }
 
-.about-me, .my-projects {
+.about-me, .my-projects, .my-contacts {
     background-color: var(--pri-color);
     padding: 20px;
     margin: 50px;
@@ -98,7 +98,8 @@ a {
 }
 
 .about-links a .fa-solid,
-.about-links a .fa-brands {
+.about-links a .fa-brands,
+.contacts-list .socials-icons a .fa-brands {
     color: var(--pri-accent-color-lighter);
     margin: 10px;
     margin-bottom: 0px;
@@ -106,7 +107,8 @@ a {
 }
 
 .about-links a:hover .fa-solid,
-.about-links a:hover .fa-brands {
+.about-links a:hover .fa-brands,
+.contacts-list .socials-icons a:hover .fa-brands {
     color: var(--comp-accent-color-lighter);
     transform: translateY(-3px);
     transition: transform 0.2s ease-out 0.2s;
@@ -117,6 +119,16 @@ a {
     padding: 5px;
     background-color: var(--pri-accent-color-dark);
     object-fit: cover;
+}
+
+.contacts-list {
+    text-align: left;
+}
+
+.contacts-list .socials-icons a .fa-brands {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 20px;
 }
 
 :root {

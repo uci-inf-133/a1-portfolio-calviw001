@@ -14,6 +14,19 @@ p, li, div {
     font-family: 'Open Sans', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    border: none;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
 .navbar ul {
     background-color: var(--pri-color);
     z-index: 1000; 
@@ -73,6 +86,23 @@ p, li, div {
     padding: 20px;
     margin: 50px;
     text-align: left;   
+}
+
+.about-links {
+    text-align: center;
+}
+
+.about-links a .fa-solid,
+.about-links a .fa-brands {
+    color: var(--pri-accent-color-lighter);
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
+.about-links a:hover .fa-solid,
+.about-links a:hover .fa-brands {
+    color: var(--comp-accent-color-lighter);
+    transform: translateY(-3px);
 }
 
 #project-vid, #project-img {

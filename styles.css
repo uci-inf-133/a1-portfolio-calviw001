@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--pri-accent-color-light);
-    font-optical-sizing: auto;
     color: var(--pri-accent-color-lighter);
 }
 
@@ -133,7 +132,7 @@ a {
     transition: transform 0.2s ease-out 0.2s;
 }
 
-#project-vid, #project-img {
+#first-project-vid, #second-project-vid, #project-img {
     border-radius: 5%;
     padding: 5px;
     background-color: var(--pri-accent-color-dark);
@@ -153,7 +152,6 @@ a {
 /* Dark mode styles */
 .dark-mode {
     background-color: var(--pri-accent-color-darker);
-    font-optical-sizing: auto;
     color: var(--pri-color);
 }
 

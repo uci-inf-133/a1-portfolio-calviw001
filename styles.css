@@ -64,7 +64,7 @@ a {
     transition: transform 0.2s ease-out 0.2s;
 }
 
-.navbar ul li button {
+.navbar ul li button, #submit-button {
     font-family: 'Oswald', sans-serif;
     cursor: pointer;
     background-color: var(--pri-color);
@@ -75,7 +75,7 @@ a {
     transition: color 0.2s ease-out 0.2s;
 }
 
-.navbar ul li button:hover {
+.navbar ul li button:hover, #submit-button:hover {
     background-color: var(--comp-accent-color-lighter);
     transform: translateY(-3px);
     border-color: var(--comp-accent-color-darker);
@@ -143,6 +143,23 @@ a {
     text-align: left;
 }
 
+#contact-form {
+    margin-bottom: 50px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#name, #email, #message {
+    background-color: var(--pri-accent-color-lighter);
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+#submit-button {
+    margin-top: 5px;
+}
+
 .contacts-list .socials-icons a .fa-brands {
     margin-top: 0px;
     margin-left: 0px;
@@ -169,13 +186,15 @@ a {
     color: var(--comp-accent-color-lighter);
 }
 
-.dark-mode .navbar ul li button {
+.dark-mode .navbar ul li button,
+.dark-mode #submit-button {
     background-color: var(--pri-accent-color-dark);
     border-color: var(--pri-accent-color-light);
     color: var(--pri-color);
 }
 
-.dark-mode .navbar ul li button:hover {
+.dark-mode .navbar ul li button:hover,
+.dark-mode #submit-button:hover {
     background-color: var(--comp-color);
     border-color: var(--comp-accent-color-lighter);
     color: var(--comp-accent-color-lighter);
@@ -211,6 +230,12 @@ a {
 .dark-mode #project-img {
     background-color: var(--pri-color);
 } 
+
+.dark-mode #name, 
+.dark-mode #email, 
+.dark-mode #message {
+    background-color: var(--pri-color);
+}
 
 :root {
     /* Normal Colors */

@@ -28,7 +28,7 @@ a {
 
 .navbar ul {
     background-color: var(--pri-color);
-    z-index: 1000; 
+    z-index: 50; 
     list-style-type: none;
     overflow: hidden;
     position: fixed;
@@ -175,6 +175,7 @@ a {
     right: 0;
     top: 0;
     bottom: 0;
+    transition: all 0.5s ease-in-out;
 }
 
 .my-modal.visible {
@@ -213,14 +214,16 @@ a {
 }
 
 .dark-mode .navbar ul li button,
-.dark-mode #submit-button {
+.dark-mode #submit-button,
+.dark-mode #ok-button  {
     background-color: var(--pri-accent-color-dark);
     border-color: var(--pri-accent-color-light);
     color: var(--pri-color);
 }
 
 .dark-mode .navbar ul li button:hover,
-.dark-mode #submit-button:hover {
+.dark-mode #submit-button:hover,
+.dark-mode #ok-button:hover {
     background-color: var(--comp-color);
     border-color: var(--comp-accent-color-lighter);
     color: var(--comp-accent-color-lighter);
@@ -261,6 +264,12 @@ a {
 .dark-mode #email, 
 .dark-mode #message {
     background-color: var(--pri-color);
+}
+
+.dark-mode .modal-container {
+    background-color: var(--pri-accent-color-dark);
+    text-align: center;
+    border-radius: 5px;
 }
 
 :root {

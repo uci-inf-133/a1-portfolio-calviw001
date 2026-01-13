@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--pri-accent-color-light);
+    color: var(--pri-accent-color-lighter);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p, li, div {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    border: none;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+.navbar ul {
+    background-color: var(--pri-color);
+    z-index: 50; 
+    list-style-type: none;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar ul li {
+    float: left;
+    margin: 10px;
+}
+
+.navbar ul li a {
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 1px; 
+    background-color: var(--pri-color);
+    border-radius: 15%;
+    color: var(--pri-accent-color-lighter);
+    transition: background-color 0.5s ease-out 0.5s;
+    transition: color 0.2s ease-out 0.2s;
+}
+
+.navbar ul li a:hover {
+    background-color: var(--comp-accent-color-lighter);
+    border-radius: 15%;
+    transform: translateY(-3px);
+    color: var(--comp-accent-color-darker);
+    transition: transform 0.2s ease-out 0.2s;
+}
+
+.navbar ul li button {
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+    background-color: var(--pri-color);
+    border-color: var(--pri-accent-color-dark);
+    color: var(--pri-accent-color-lighter);
+    transition: background-color 0.5s ease-out 0.5s;
+    transition: border-color 0.5s ease-out 0.5s;
+    transition: color 0.2s ease-out 0.2s;
+}
+
+.navbar ul li button:hover {
+    background-color: var(--comp-accent-color-lighter);
+    transform: translateY(-3px);
+    border-color: var(--comp-accent-color-darker);
+    color: var(--comp-accent-color-darker);
+    transition: transform 0.2s ease-out 0.2s;
+}
+
+.header { 
+    background-color: var(--pri-color);
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.header-title, .about-title {
+    padding-bottom: 20px;
+}
+
+#header-img {
+    border-radius: 40%;
+    padding: 5px;
+    background-color: var(--pri-accent-color-dark);
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.about-me {
+    background-color: var(--pri-color);
+    padding: 20px;
+    margin: 50px;
+    text-align: left;   
+}
+
+.about-links {
+    text-align: center;
+}
+
+.about-links a .fa-solid,
+.about-links a .fa-brands {
+    color: var(--pri-accent-color-lighter);
+    margin: 10px;
+    margin-bottom: 0px;
+    transition: color 0.2s ease-out 0.2s;
+}
+
+.about-links a:hover .fa-solid,
+.about-links a:hover .fa-brands {
+    color: var(--comp-accent-color-lighter);
+    transform: translateY(-3px);
+    transition: transform 0.2s ease-out 0.2s;
+}
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: var(--pri-accent-color-darker);
+    color: var(--pri-color);
+}
+
+.dark-mode .navbar ul {
+    background-color: var(--pri-accent-color-dark);
+}
+
+.dark-mode .navbar ul li a {
+    background-color: var(--pri-accent-color-dark);
+    color: var(--pri-color);
+}
+
+.dark-mode .navbar ul li a:hover {
+    background-color: var(--comp-color);
+    color: var(--comp-accent-color-lighter);
+}
+
+.dark-mode .navbar ul li button {
+    background-color: var(--pri-accent-color-dark);
+    border-color: var(--pri-accent-color-light);
+    color: var(--pri-color);
+}
+
+.dark-mode .navbar ul li button:hover {
+    background-color: var(--comp-color);
+    border-color: var(--comp-accent-color-lighter);
+    color: var(--comp-accent-color-lighter);
+}
+
+.dark-mode .header {
+    background-color: var(--pri-accent-color-dark);
+}
+
+.dark-mode #header-img {
+    background-color: var(--pri-accent-color-light);
+}
+
+.dark-mode .about-me {
+    background-color: var(--pri-accent-color-dark);
+}
+
+.dark-mode .about-links a .fa-solid,
+.dark-mode .about-links a .fa-brands {
+    color: var(--pri-color);
+}
+
+.dark-mode .about-links a:hover .fa-solid,
+.dark-mode .about-links a:hover .fa-brands {
+    color: var(--comp-color);
+}
+
+:root {
+    /* Normal Colors */
+    --pri-color: #c5586a;
+    --comp-color: #539438;
+
+    /* Accent Colors */
+    --pri-accent-color-lighter: #d2cff5;
+    --pri-accent-color-light: #d66d7f;
+    --pri-accent-color-dark: #77192A;
+    --pri-accent-color-darker: #4F0714;
+    --comp-accent-color-lighter: #A2DD89;
+    --comp-accent-color-light: #71B753;
+    --comp-accent-color-dark: #316D17;
+    --comp-accent-color-darker: #1A4807;
+}

@@ -64,7 +64,7 @@ a {
     transition: transform 0.2s ease-out 0.2s;
 }
 
-.navbar ul li button, #submit-button {
+.navbar ul li button, #submit-button, #ok-button {
     font-family: 'Oswald', sans-serif;
     cursor: pointer;
     background-color: var(--pri-color);
@@ -75,7 +75,7 @@ a {
     transition: color 0.2s ease-out 0.2s;
 }
 
-.navbar ul li button:hover, #submit-button:hover {
+.navbar ul li button:hover, #submit-button:hover, #ok-button:hover {
     background-color: var(--comp-accent-color-lighter);
     transform: translateY(-3px);
     border-color: var(--comp-accent-color-darker);
@@ -164,6 +164,32 @@ a {
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 20px;
+}
+
+.my-modal {
+    background-color: rgba(0,0,0,0.4);
+    opacity: 0;
+    position: fixed;
+    z-index: -1;      
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.my-modal.visible {
+    opacity: 1;
+    z-index: 1000;
+}
+
+.modal-container {
+    background-color: var(--pri-color);
+    text-align: center;
+    border-radius: 5px;
+}
+
+#ok-button {
+    width: 100px;
 }
 
 /* Dark mode styles */

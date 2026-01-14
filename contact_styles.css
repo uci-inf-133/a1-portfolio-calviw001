@@ -87,6 +87,7 @@ a {
     background-color: var(--pri-color);
     padding: 20px;
     margin: 50px;
+    margin-top: 80px;
     text-align: left;   
 }
 
@@ -160,7 +161,7 @@ a {
 /* Dark mode styles */
 .dark-mode {
     background-color: var(--pri-accent-color-darker);
-    color: var(--pri-color);
+    color: var(--pri-accent-color-light);
 }
 
 .dark-mode .navbar ul {
@@ -169,7 +170,7 @@ a {
 
 .dark-mode .navbar ul li a {
     background-color: var(--pri-accent-color-dark);
-    color: var(--pri-color);
+    color: var(--pri-accent-color-light);
 }
 
 .dark-mode .navbar ul li a:hover {
@@ -182,7 +183,7 @@ a {
 .dark-mode #ok-button  {
     background-color: var(--pri-accent-color-dark);
     border-color: var(--pri-accent-color-light);
-    color: var(--pri-color);
+    color: var(--pri-accent-color-light);
 }
 
 .dark-mode .navbar ul li button:hover,
@@ -198,7 +199,7 @@ a {
 }
 
 .dark-mode .contacts-list .socials-icons a .fa-brands {
-    color: var(--pri-color);
+    color: var(--pri-accent-color-light);
 }
 
 .dark-mode .contacts-list .socials-icons a:hover .fa-brands {
@@ -208,7 +209,7 @@ a {
 .dark-mode #name, 
 .dark-mode #email, 
 .dark-mode #message {
-    background-color: var(--pri-color);
+    background-color: var(--pri-accent-color-light);
 }
 
 .dark-mode .modal-container {

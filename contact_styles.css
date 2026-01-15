@@ -170,10 +170,6 @@ a {
     border-radius: 5px;
 }
 
-#ok-button {
-    width: 100px;
-}
-
 /* Dark mode styles */
 .dark-mode {
     background-color: var(--pri-accent-color-darker);

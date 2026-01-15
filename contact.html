@@ -50,15 +50,21 @@ EMAIL: calviw8@uci.edu
     <div class="contacts-list">
       <h4>Send me a message!</h4>
       <form id="contact-form" title="contact-form">
-        <div class="row">
-          <div class="contact-form-contents-container">
+        <div class="contact-form-contents-container container">
+          <div class="row">
             <label for="name">Name:</label>
-            <input type="text" id="name" placeholder="Enter your full name" class="form-control col-sm-12">
+            <input type="text" id="name" placeholder="Enter your full name" class="form-control col-md-12">
+          </div>
+          <div class="row">
             <label for="email">Email:</label>
-            <input type="email" id="email" placeholder="Enter your email address" class="form-control col-sm-12">
+            <input type="email" id="email" placeholder="Enter your email address" class="form-control col-md-12">
+          </div>
+          <div class="row">
             <label for="message">Message:</label>
-            <textarea id="message" placeholder="What do you want to discuss about?" class="form-control col-sm-12"></textarea>
-            <button type="button" id="submit-button">Submit Message</button>
+            <textarea id="message" placeholder="What do you want to discuss about?" class="form-control col-md-12"></textarea>
+          </div>
+          <div class="row justify-content-center">
+            <button type="button" id="submit-button" class="col-md-2">Submit Message</button>
           </div>
         </div>
       </form>
@@ -81,13 +87,13 @@ EMAIL: calviw8@uci.edu
 
   <!--Modal-->
   <div id="modal" class="my-modal">
-    <div class="modal-container">
+    <div class="modal-container container">
       <div class="row justify-content-center align-items-center">
-        <h4>Thanks for the message!</h4>
-        <p>
+        <h4 class="col-md-12">Thanks for the message!</h4>
+        <p class="col-md-12">
           Your message has been sent to my email address cowvyn@gmail.com. I will get back to you as soon as possible.
         </p>
-        <button type="button" id="ok-button">OK</button>
+        <button type="button" id="ok-button" class="col-md-2">OK</button>
       </div>
     </div>
   </div>

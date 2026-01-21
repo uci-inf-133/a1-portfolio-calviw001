@@ -55,6 +55,7 @@ included below:
     - Semantic tags: https://www.w3schools.com/html/html5_semantic_elements.asp
     - Bootstrap tutorial: https://www.w3schools.com/bootstrap/default.asp
     - Popup with JS: https://www.youtube.com/watch?v=r_PL0K2fGkY
+    - Add video to website: https://www.youtube.com/watch?v=ECM-OIYbQSY
 
 
 6. What classmates or other individuals did you consult as part of this assignment? What did you discuss?

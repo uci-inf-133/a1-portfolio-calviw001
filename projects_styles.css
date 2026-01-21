@@ -111,7 +111,7 @@ a {
     text-align: left;   
 }
 
-#first-project-vid, #second-project-vid, #project-img {
+#first-project-vid, #second-project-vid, #first-project-img, #second-project-img {
     border-radius: 5%;
     padding: 5px;
     background-color: var(--pri-accent-color-light);
@@ -156,6 +156,7 @@ a {
 
 .dark-mode #first-project-vid, 
 .dark-mode #second-project-vid,
-.dark-mode #project-img {
+.dark-mode #first-project-img,
+.dark-mode #second-project-img {
     background-color: var(--pri-accent-color-darker);
 } 

@@ -41,7 +41,12 @@ added a dark mode feature to my website that is toggled by pressing a button in 
 
 
 3. Did you ignore any of the warnings or errors presented by the accessibility checker? If so, why does this not seem like an accessibility concern? If it's useful, you can consolidate your thoughts on multiple warnings/errors if the rationale is similar.
-I had no warnings or errors presented by the accessibility checker.
+The accessibility checker showed me many potential problems with each of my pages. One of these problems that is shared with all
+of my pages is "Check 271: dir attribute may be required to identify changes in text direction." I don't think this is an 
+accessibility concern because all the text I wrote is in English and English text is read left-to-right. Since by default
+text is marked as left-to-right, then I shouldn't need to add a dir atribute. Another problem that was give nto my index page and
+my projects page is "Check 178: Alt text does not convey the same information as the image." I don't think this is an accessibility
+concern because my alt text describes my image pretty well in my opinion. 
 
 
 4. How long, in hours, did it take you to complete this assignment?

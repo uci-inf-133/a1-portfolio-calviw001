@@ -46,7 +46,9 @@ of my pages is "Check 271: dir attribute may be required to identify changes in 
 accessibility concern because all the text I wrote is in English and English text is read left-to-right. Since by default
 text is marked as left-to-right, then I shouldn't need to add a dir atribute. Another problem that was given to my index page and
 my projects page is "Check 178: Alt text does not convey the same information as the image." I don't think this is an accessibility
-concern because my alt text describes my image pretty well in my opinion. 
+concern because my alt text describes my image pretty well in my opinion. Overall, I personally found these potential problems to 
+not be accessibility concerns because the problems were either handled by default, like the first example, or the problems were
+solved sufficiently by myself, like the second example.
 
 
 4. How long, in hours, did it take you to complete this assignment?
